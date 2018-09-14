@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	border: 2px solid green;
+}
+@font-face {
+    font-family: myNewFont;
+    src: url(AlexBrush-Regular.ttf);
+}
+.external_demo{
+	color: green;
+	font-size: 30px;
+}
+.new_section1, .new_section2{
+	color: blue;
+	/*font-family: myNewFont;*/
+}
+#main_2 .new_section2{
+	font-size: 30px;
+	text-decoration: line-through;
+	color: red;
+}
+footer .new_section2{
+	width: 400px;
+	text-align: justify;
+	padding-left: 50px; 
+	text-indent: 40px;
+	text-transform: lowercase;
+}
+h1{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: blue;
+	text-shadow: 3px -1px 14px green;
+	height: 100px;
+	line-height: 100px;
+}

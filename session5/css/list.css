@@ -1,0 +1,7 @@
+ul li:nth-child(3){
+	list-style-type: square;
+	/*list-style-image: url('../favicon.ico');*/
+}
+ol li {
+	list-style-type: upper-roman;
+}

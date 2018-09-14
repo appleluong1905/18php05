@@ -1,0 +1,18 @@
+#content1 {
+	width: 400px;
+	border: 3px dotted green;
+	padding: 10px;
+	margin: 50px;
+	padding-left: 20px;
+	margin-top: 100px;
+	float: left;
+}
+#content2 {
+	width: 400px;
+	border: 3px dotted green;
+	padding: 10px;
+	margin: 50px;
+	padding-left: 20px;
+	margin-top: 100px;
+	float: left;
+}

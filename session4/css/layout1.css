@@ -1,0 +1,12 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#header{
+	background-color: yellow;
+	height: 100px;
+}
+#header p{
+	padding-top: 15px;
+	padding-left: 15px;
+}

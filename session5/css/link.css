@@ -1,0 +1,15 @@
+a:link{
+	color: green;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	font-weight: bold;
+}
+a:visited{
+	color: yellow;
+}
+div{
+	height: 800px;
+	margin-top: 600px;
+}
