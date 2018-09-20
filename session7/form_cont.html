@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form continue - session 7</title>
+</head>
+<body>
+	<h1>Register form</h1>
+	<form action="#" name="registerForm" enctype="multipart/form-data">
+		<p>Name: <input type="text" name="name" required></p>
+		<p>Email: <input type="email" name="email" required></p>
+		<p>Website: <input type="url" name="website" required></p>
+		<p>Price: <input type="number" name="price" required max="10" min="2"></p>
+		<p>Range: <input type="range" name="range" required max="100" min="10" step="5"></p>
+		<p>Color: <input type="color" name="color" required></p>
+		<p>Password: <input type="password" name="password" required pattern="[a-zA-Z0-9]{6,}" title="Password 6+ alphanumeric"></p>
+		<p>Phone: <input type="text" name="phone" placeholder="(+84)988794607"></p>
+		<p>Avatar:
+			<input type="file" name="avatar" accept="image/jpeg, image/png">
+		</p>
+		<p><input type="submit" name="register" value="Register"></p>
+	</form>
+</body>
+</html>
